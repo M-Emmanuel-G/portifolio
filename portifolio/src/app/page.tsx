@@ -8,7 +8,7 @@ export default function Home() {
         <section className="w-full sm:h-full sm:w-2/6 flex flex-col">
           <ProfileInfo/>
         </section>
-        <section className="w-4/6  flex flex-col">
+        <section className="w-4/6  flex flex-col justify-center">
         <div className="w-full flex  flex-col text-center p-8 text-white">
             <strong className="text-xl m-4 text-cyan-400">Sobre mim</strong>
               <span className="text-sm text-white">

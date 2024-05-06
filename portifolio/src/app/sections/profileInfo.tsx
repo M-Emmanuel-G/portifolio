@@ -2,6 +2,10 @@ import { Button } from "@/components/ui/button";
 import { Download, Github, Link, Linkedin, Mail, MapPin, Smartphone } from "lucide-react";
 import Image from "next/image";
 import profileImg from "../images/profile.jpg"
+import IconNext from "../../Images/NextJS.png"
+import IconTypescript from "../../Images/Typescript.png"
+import IconReact from "../../Images/React.png"
+import IconAuth from "../../Images/auth.jpg"
 
 export default function ProfileInfo() {
     return (
@@ -9,7 +13,7 @@ export default function ProfileInfo() {
             <div className="w-full h-full flex flex-col ">
             <div className="w-full h-full flex flex-col items-center text-center">
               <Image
-                className="w-[200px] h-[200px] rounded-2xl mt-24" 
+                className="w-[100px] h-[100px] rounded-2xl mt-24" 
                 src={profileImg} alt=""  />
               <strong className="text-2xl my-4">Márcio Emmanuel</strong>
               <span className="text-sm my-4">FullStack Developer</span>
@@ -20,6 +24,17 @@ export default function ProfileInfo() {
                 <Link className="mx-4 rounded-sm w-[40px] h-[40px] flex items-center justify-center bg-white" href="https://github.com/M-Emmanuel-G">
                   <Github style={{color:"black"}} />
                 </Link>
+              </div>
+              <div className="my-4 flex flex-col">
+                <div>
+                  <h2 className="my-4">Tecnologias</h2>
+                </div>
+                <div className="flex gap-4">
+                  <Image className="w-12 h-12 bg-white rounded-[50%]" src={IconNext} alt=""/>
+                  <Image className="w-12 h-12" src={IconTypescript} alt=""/>
+                  <Image className="w-16 h-12" src={IconReact} alt=""/>
+                  <Image className="w-12 h-20" src={IconAuth} alt=""/>
+                </div>
               </div>
               <div>
                 <div className="flex my-4">
