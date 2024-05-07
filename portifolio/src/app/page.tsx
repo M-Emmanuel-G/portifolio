@@ -8,7 +8,7 @@ export default function Home() {
         <section className="w-full sm:h-full sm:w-2/6 flex flex-col">
           <ProfileInfo/>
         </section>
-        <section className="w-4/6  flex flex-col justify-center">
+        <section className="w-full   flex flex-col justify-center">
         <div className="w-full flex  flex-col text-center p-8 text-white">
             <strong className="text-xl m-4 text-cyan-400">Sobre mim</strong>
               <span className="text-sm text-white">
@@ -19,14 +19,17 @@ export default function Home() {
                 Porem, estou trabalhando em outro projeto onde estou simulando um controle de estoque, onde consigo editar os produtos, entradas, saidas de produtos, relatorios finais, etc...!
               </span>
         </div>
-          <div className=" w-full text-center">
+          <div className=" w-full text-center px-4">
               <h2 className="text-xl my-4 text-cyan-400">Desenvolvedor WEB</h2>
-              <span className="text-sm p-6">
+              <span className="text-sm text-center">
                 Desenvolvo sistemas web utilizando as tecnologias mais atuais disponiveis no mercado.
                 Criação de API, utilizando typescript, NodeJS, MySql, Postegres, Prisma, Next Auth para autenticação,
                 utilização de Postman para testes e uma forte documentação da API.
                 Tambem utilizo o NextJs juntamente com typescript, tailwindCSS, shadcn/UI para criar interfaces modernas e intuitivas ao cliente!
               </span>
+            </div>
+            <div className="w-full text-center text-2xl text-cyan-400">
+              <h2 className="mt-4">Projetos</h2>
             </div>
             <div className="w-full flex flex-col justify-center overflow-auto gap-4 items-center sm:flex-row">
                 <CardProject 
