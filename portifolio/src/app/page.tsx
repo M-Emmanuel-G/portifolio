@@ -39,7 +39,7 @@ export default function Home() {
                   title="OnlineShop"
                 />
                 <CardProject
-                  description="Projeto desenvolvido para empresa onde atuo. nele consiste em enviar via email um relatorio!"
+                  description="Projeto desenvolvido para empresa onde atuo. Nele consiste em enviar via email um relatorio!"
                   imgURL="https://utfs.io/f/3d999444-14e5-48bb-a54b-b8a361a4ab26-1tokw.png"
                   link="https://system2-0.vercel.app"
                   title="CTTS system"
@@ -49,6 +49,12 @@ export default function Home() {
                   imgURL="https://utfs.io/f/deff6651-7218-4dd3-ac04-cd1a36334d11-fcbkj8.jpg"
                   link="https://inventory-stock-2-0.vercel.app"
                   title="IControl"
+                />
+                <CardProject
+                  description="Projeto criado com base em um banco digital, com as mesmas funcionalidades,  so que de um jeito mais simples."
+                  imgURL="https://utfs.io/f/ea560575-a429-4bc8-b621-aa1f25cf5ec9-1lntte.webp"
+                  link="https://bank-2-0-nu.vercel.app/"
+                  title="AppBank"
                 />
               </div>
         </section>

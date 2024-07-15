@@ -43,16 +43,16 @@ export default function ProfileInfo() {
                 </div>
                 <div className="flex my-4">
                   <Mail/>
-                  <span className="mx-4">emmanuel-jnr@hotmail.com</span>
+                  <span className="mx-4">megoncalves93@gmail.com</span>
                 </div>
                 <div className="flex my-4">
                   <MapPin/>
-                  <span className="mx-4">Itabirito, Minhas Gerais</span>
+                  <span className="mx-4">Itabirito, Minas Gerais</span>
                 </div>
                 <div className=" flex flex-col my-4">
                   <Button className="text-[10px] rounded-2xl my-2">
                     <Download className="w-[20px] mx-3"/>
-                    <a target="blank" href="https://utfs.io/f/7d8da2e2-dd48-46de-8af1-3384b82b4d1d-960pcb.pdf" download="curriculo.pdf">Download CV</a>
+                    <a target="blank" href="https://utfs.io/f/7ca79096-283f-4511-bda4-8ec24c291816-53z6gk.docx" download="curriculo.pdf">Download CV</a>
                   </Button>
                 </div>
               </div>
